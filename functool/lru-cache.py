@@ -7,7 +7,6 @@ def fibonancy(n):
         return n
     return fibonancy(n-1) + fibonancy(n-2)
 
-
 start = time.time()
 fibonancy(20)
 end = time.time()
